@@ -1,0 +1,80 @@
+h1 {
+    color: tomato;
+    text-align: center;
+    font-size: 500%;
+    font-style: italic;
+
+}
+
+.first-div {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    height: 100px;
+}
+
+.first-line {
+    border: 2px red solid;
+    text-align: center;
+    height: 100px;
+}
+
+.second-line {
+    border: 2px red solid;
+    text-align: center;
+    height: 100px;
+}
+
+.third-line {
+    border: 2px red solid;
+    text-align: center;
+    height: 100px;
+}
+
+.second-div {
+    border: 2px greenyellow solid;
+    text-align: center;
+    background-color: blue;
+    height: 100px;
+}
+
+.third-div {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    text-align: center;
+    height: 100px;
+}
+
+.fourth-line {
+    border: 2px wheat solid;
+    height: 100px;
+}
+
+.fifth-line {
+    border: 2px wheat solid;
+    height: 100px;
+}
+
+.sixth-line {
+    border: 2px wheat solid;
+    height: 100px;
+}
+
+.fouth-div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: violet;
+    text-align: center;
+    height: 100px;
+}
+
+.sevent-line {
+    border: 2px black solid;
+    height: 100px;
+}
+
+.eight-line {
+    border: 2px black solid;
+    height: 100px;
+}
