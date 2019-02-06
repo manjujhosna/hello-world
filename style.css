@@ -1,80 +1,67 @@
 h1 {
-    color: tomato;
     text-align: center;
-    font-size: 500%;
+    color: aqua;
+    font-size: 400%;
     font-style: italic;
-
 }
 
-.first-div {
-    background-color: aqua;
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    height: 100px;
+.wrapper {
+    margin: 0% auto;
+    width: 75%;
+    background-color: darkgrey;
 }
 
-.first-line {
-    border: 2px red solid;
-    text-align: center;
-    height: 100px;
-}
-
-.second-line {
-    border: 2px red solid;
-    text-align: center;
-    height: 100px;
-}
-
-.third-line {
-    border: 2px red solid;
-    text-align: center;
-    height: 100px;
-}
-
-.second-div {
-    border: 2px greenyellow solid;
-    text-align: center;
-    background-color: blue;
-    height: 100px;
-}
-
-.third-div {
-    background-color: aquamarine;
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    text-align: center;
-    height: 100px;
-}
-
-.fourth-line {
-    border: 2px wheat solid;
-    height: 100px;
-}
-
-.fifth-line {
-    border: 2px wheat solid;
-    height: 100px;
-}
-
-.sixth-line {
-    border: 2px wheat solid;
-    height: 100px;
-}
-
-.fouth-div {
+.main-div {
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: violet;
-    text-align: center;
-    height: 100px;
+
 }
 
-.sevent-line {
-    border: 2px black solid;
-    height: 100px;
+.manju-signup {
+    margin-left: 5%;
 }
 
-.eight-line {
-    border: 2px black solid;
-    height: 100px;
+.manju-login {
+    margin-left: 18%;
+}
+
+input[type=username] {
+    font-size: 250%;
+    padding: 1%;
+    font-weight: 400;
+    margin-block-end: 2%;
+}
+
+input[type=email] {
+    font-size: 250%;
+    padding: 1%;
+    font-weight: 400;
+    margin-block-end: 2%;
+}
+
+input[type=password] {
+    font-size: 250%;
+    padding: 1%;
+    font-weight: 400;
+    margin-block-end: 2%;
+}
+
+.terms-div {
+    font-size: 100%;
+}
+
+input[type=button] {
+    background-color: darkblue;
+    color: white;
+    font-size: 150%;
+    padding: 2%;
+    border-radius: 8%;
+}
+
+input[name=button-2] {
+    background-color: aqua;
+    color: white;
+    font-size: 150%;
+    padding: 2%;
+    border-radius: 8%;
 }
