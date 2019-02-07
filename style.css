@@ -1,67 +1,26 @@
 h1 {
     text-align: center;
-    color: aqua;
-    font-size: 400%;
+    color: tomato;
     font-style: italic;
+    font-size: 300%;
 }
 
-.wrapper {
-    margin: 0% auto;
-    width: 75%;
-    background-color: darkgrey;
+h2 {
+    margin: 0% 0% 0% 7%;
+    margin-block-end: 1%;
+    color: aqua;
 }
 
-.main-div {
-    display: grid;
-    grid-template-columns: 50% 50%;
-
+table {
+    width: 100%;
+    text-align: left;
+    border: 1px solid black;
 }
 
-.manju-signup {
-    margin-left: 5%;
-}
-
-.manju-login {
-    margin-left: 18%;
-}
-
-input[type=username] {
-    font-size: 250%;
-    padding: 1%;
-    font-weight: 400;
-    margin-block-end: 2%;
-}
-
-input[type=email] {
-    font-size: 250%;
-    padding: 1%;
-    font-weight: 400;
-    margin-block-end: 2%;
-}
-
-input[type=password] {
-    font-size: 250%;
-    padding: 1%;
-    font-weight: 400;
-    margin-block-end: 2%;
-}
-
-.terms-div {
-    font-size: 100%;
-}
-
-input[type=button] {
-    background-color: darkblue;
-    color: white;
-    font-size: 150%;
-    padding: 2%;
-    border-radius: 8%;
-}
-
-input[name=button-2] {
-    background-color: aqua;
-    color: white;
-    font-size: 150%;
-    padding: 2%;
-    border-radius: 8%;
+table,
+td,
+tr,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
